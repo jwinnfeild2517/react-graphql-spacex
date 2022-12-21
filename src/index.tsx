@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import 'semantic-ui-css/semantic.min.css'
 
 const client = new ApolloClient({
   uri: 'https://api.spacex.land/graphql/',
