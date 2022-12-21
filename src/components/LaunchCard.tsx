@@ -40,12 +40,12 @@ const LaunchCard = ( { cardData }: CardTypes) => {
           <b>RocketName:</b> { cardData.rocket.rocket_name }
         </Card.Description>
       </Card.Content>
-      <Card.Content extra>
+      {/* <Card.Content extra>
         <a href='google.com'>
           <Icon name='user' />
           22 Friends
         </a>
-      </Card.Content>
+      </Card.Content> */}
     </Card>
   );
 }
