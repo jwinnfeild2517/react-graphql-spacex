@@ -1,4 +1,4 @@
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 
 export type CardTypes = {
   cardData: {
