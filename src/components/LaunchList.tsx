@@ -6,11 +6,13 @@ import { CardTypes } from './LaunchCard';
 function LaunchList() {
   const { loading, error, data } = useQuery(PastLaunchesList);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <h1 style={{
+    color: 'white'
+  }}>Loading...</h1>;
   if (error) return <p>Error : {error.message}</p>;
 
   return (
-    <div style={{
+    <div className="card-container" style={{
       display: 'flex',
       flexWrap: 'wrap',
       gap: '2rem',

@@ -19,6 +19,10 @@
   animation: App-logo-spin infinite 6s linear;
 }
 
+.card-container > .ui.card:first-child {
+  margin: 1em 0em;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: translate(0px);

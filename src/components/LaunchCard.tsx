@@ -27,8 +27,7 @@ const LaunchCard = ( { cardData }: CardTypes) => {
   const image =  cardData.links.flickr_images?.[0] || cardData.links.mission_patch_small
   return (
     <Card style={{
-      boxShadow: "rgb(204 204 205) 2px 2px 0.714286rem",
-      // maxHeight: "500px",
+      boxShadow: "#525252 2px 2px 0.714286rem",
     }}>
       <Image src={ image } wrapped ui={false} />
       <Card.Content>
@@ -40,12 +39,6 @@ const LaunchCard = ( { cardData }: CardTypes) => {
           <b>RocketName:</b> { cardData.rocket.rocket_name }
         </Card.Description>
       </Card.Content>
-      {/* <Card.Content extra>
-        <a href='google.com'>
-          <Icon name='user' />
-          22 Friends
-        </a>
-      </Card.Content> */}
     </Card>
   );
 }
