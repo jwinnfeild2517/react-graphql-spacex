@@ -20,7 +20,7 @@ Install [Node](https://nodejs.org/en/download/)
 Clone Repo to your local machine
 
 ```
-git clone
+git clone https://github.com/jwinnfeild2517/react-graphql-spacex.git
 ```
 Install Dependencies
 ```
